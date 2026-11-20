@@ -1,0 +1,71 @@
+================================================================================
+STORY SECTION — 6 COUPLE PHOTOS REPLACEMENT GUIDE (স্মৃতিৰ এমুঠি)
+================================================================================
+
+All 6 milestones in the story section now have distinct, beautiful couple photos
+(3 newly created demo couple photos + 3 existing couple milestones).
+
+You can easily replace any or all of these 6 photos with your real couple photos
+anytime by simply replacing the files in this folder (`assets/images/story/`).
+
+RECOMMENDED SPECIFICATIONS:
+- Aspect Ratio: 16:10 or 4:3 (e.g. 1440 x 900 px, 1600 x 1000 px, or 1200 x 800 px)
+- Format: PNG or JPG / JPEG
+- Orientation: Landscape (horizontal) looks best in the card design
+
+--------------------------------------------------------------------------------
+MILESTONE & FILE MAPPING:
+--------------------------------------------------------------------------------
+
+1. MILESTONE 1 — প্ৰথম চিনাকি (THE FIRST CONNECTION / FACEBOOK)
+   File in use: assets/images/story/first_connection.png
+   Alternative file: assets/images/story/demo_photo_1.png
+   Theme: How Bedanta & Namrata connected on Facebook / First spark
+
+2. MILESTONE 2 — কথা-বতৰাৰ আৰম্ভণি (GETTING TO KNOW EACH OTHER)
+   File in use: assets/images/story/getting_to_know.png
+   Alternative file: assets/images/story/demo_photo_2.png
+   Theme: Long conversations, phone calls, sharing life stories
+
+3. MILESTONE 3 — প্ৰথম সাক্ষাত (OUR FIRST MEETING)
+   File in use: assets/images/story/first_meet.png
+   Alternative file: assets/images/story/demo_photo_3.png
+   Theme: First time meeting in person, nervous smiles and laughter
+
+4. MILESTONE 4 — প্ৰেমৰ সূচনা (FALLING IN LOVE)
+   File in use: assets/images/story/love_begin.png
+   Alternative file: assets/images/story/demo_photo_4.png
+   Theme: The realization of deep love and friendship blossoming
+
+5. MILESTONE 5 — সহযাত্ৰাৰ প্ৰতিশ্ৰুতি (A LIFETIME PROMISE / PROPOSAL)
+   File in use: assets/images/story/proposal.png
+   Alternative file: assets/images/story/demo_photo_5.png
+   Theme: The proposal, lifelong promise, and mutual commitment
+
+6. MILESTONE 6 — নতুন অধ্যায় (OUR NEXT CHAPTER: FROM US TO FOREVER)
+   File in use: assets/images/story/infinite.png
+   Alternative file: assets/images/story/demo_photo_6.png
+   Theme: Assamese wedding attire, holy union, beginning as husband and wife
+
+--------------------------------------------------------------------------------
+HOW TO REPLACE WITH YOUR REAL PHOTOS:
+--------------------------------------------------------------------------------
+Option A (Easiest):
+1. Prepare your 6 real couple photos.
+2. Rename them to match the filenames:
+   - first_connection.png
+   - getting_to_know.png
+   - first_meet.png
+   - love_begin.png
+   - proposal.png
+   - infinite.png
+3. Overwrite the files in this folder `assets/images/story/`.
+4. Refresh your browser (Ctrl + F5 or Cmd + Shift + R). Done!
+
+Option B:
+If you save them with new names (e.g. bedanta_namrata_1.jpg), simply update
+the "image" paths in:
+- `data/content.json`
+- `data/content-fallback.js`
+- `js/story.js`
+================================================================================

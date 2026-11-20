@@ -1,0 +1,301 @@
+/* ==========================================================================
+   ASSAMESE WEDDING INVITATION — RESPONSIVE DESIGN & MOBILE TUNING CSS
+   Optimized for Android, iPhone, iPad/Tablets & Desktops
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. TABLETS & MID-SIZED SCREENS (max-width: 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .top-nav-bar {
+    top: 10px;
+    padding: 0 8px;
+  }
+
+  .hero-section {
+    padding: 68px 16px 42px;
+  }
+
+  .hero-arch-frame {
+    width: 260px;
+    height: 350px;
+  }
+
+  .hero-groom-name,
+  .hero-bride-name {
+    font-size: 2.35rem;
+  }
+
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .announcement-card {
+    padding: 22px 16px 18px;
+  }
+
+  .announcement-wrap-img {
+    width: 105px;
+    height: 140px;
+    margin: 2px 12px 6px 0;
+  }
+
+  .verse-line {
+    font-size: 0.98rem;
+  }
+
+  .verse-highlight {
+    font-size: 1.05rem;
+  }
+
+  .timer-boxes-grid {
+    gap: 6px;
+    max-width: 340px;
+  }
+
+  .timer-val {
+    font-size: 1.5rem;
+  }
+
+  .timer-sub {
+    font-size: 0.68rem;
+  }
+
+  .formal-card {
+    padding: 26px 16px;
+  }
+
+  .card-invitation-verse {
+    font-size: 0.96rem;
+  }
+
+  .card-date-highlight {
+    font-size: 1.08rem;
+  }
+
+  .scratch-box-wrapper {
+    height: 110px;
+  }
+
+  .revealed-date-title {
+    font-size: 1.25rem;
+  }
+
+  .timeline-journey-wrap {
+    padding-left: 30px;
+  }
+
+  .timeline-track-line {
+    left: 14px;
+  }
+
+  .node-marker {
+    left: -26px;
+  }
+
+  .node-marker.main-event-marker {
+    left: -28px;
+  }
+
+  .event-wrap-img {
+    width: 95px;
+    height: 125px;
+    margin: 2px 10px 4px 0;
+  }
+
+  .event-name-title {
+    font-size: 1.25rem;
+  }
+
+  .story-card-body {
+    padding: 14px 12px;
+  }
+
+  .story-item-title {
+    font-size: 1.15rem;
+  }
+
+  .story-item-desc {
+    font-size: 0.9rem;
+  }
+
+  .venue-card {
+    padding: 24px 16px 20px;
+  }
+
+  .venue-couple-names {
+    font-size: 1.2rem;
+  }
+
+  .venue-details-box {
+    padding: 14px 16px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. SMALL MOBILE SCREENS (max-width: 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .top-nav-bar {
+    top: 8px;
+    padding: 0 4px;
+  }
+
+  .lang-btn {
+    padding: 5px 12px;
+    font-size: 0.78rem;
+  }
+
+  .ctrl-btn {
+    padding: 4px 8px;
+    min-height: 28px;
+    font-size: 0.76rem;
+  }
+
+  .envelope-wrapper {
+    width: 88vw;
+  }
+
+  .envelope-card {
+    padding: 0.8rem;
+  }
+
+  .envelope-card-couple {
+    font-size: 1.18rem;
+  }
+
+  .hero-section {
+    padding: 60px 14px 38px;
+  }
+
+  .hero-arch-frame {
+    width: 230px;
+    height: 310px;
+  }
+
+  .hero-groom-name,
+  .hero-bride-name {
+    font-size: 2.1rem;
+    letter-spacing: 1.5px;
+  }
+
+  .hero-title {
+    font-size: 1.7rem;
+  }
+
+  .hero-auspice {
+    font-size: 1.18rem;
+    letter-spacing: 1px;
+  }
+
+  .announcement-wrap-img {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+    margin: 0 auto 14px auto;
+  }
+
+  .announcement-verse {
+    text-align: center;
+  }
+
+  .timer-boxes-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    max-width: 300px;
+  }
+
+  .timer-box {
+    padding: 8px 2px;
+  }
+
+  .timer-val {
+    font-size: 1.35rem;
+  }
+
+  .timer-sub {
+    font-size: 0.64rem;
+  }
+
+  .event-wrap-img {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    height: 160px;
+    margin: 0 auto 12px auto;
+  }
+
+  .timeline-event-card {
+    text-align: center;
+    padding: 16px 14px;
+  }
+
+  .event-card-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .event-actions-row {
+    justify-content: center;
+  }
+
+  .event-badge-group {
+    justify-content: center;
+  }
+
+  .ritual-header {
+    justify-content: center;
+  }
+
+  .venue-info-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .whatsapp-share-btn {
+    padding: 10px 18px;
+    font-size: 0.84rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. EXTRA SMALL SCREENS (max-width: 360px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 360px) {
+  .hero-groom-name,
+  .hero-bride-name {
+    font-size: 1.85rem;
+  }
+
+  .timer-val {
+    font-size: 1.2rem;
+  }
+
+  .scratch-box-wrapper {
+    height: 100px;
+  }
+
+  .revealed-date-title {
+    font-size: 1.15rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. DESKTOP / LARGE DISPLAY ENHANCEMENTS (min-width: 992px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  body {
+    background-attachment: fixed;
+  }
+
+  .site-container {
+    max-width: 540px;
+    border-left: 1px solid rgba(212, 175, 55, 0.4);
+    border-right: 1px solid rgba(212, 175, 55, 0.4);
+  }
+}
