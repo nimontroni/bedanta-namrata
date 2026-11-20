@@ -8,7 +8,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
     "metaDescription": "Bedanta & Namrata's Marriage invitation - এটি নতুন অধ্যায়ৰ আৰম্ভণি। আমাৰ পৱিত্ৰ বিবাহৰ ডিজিটেল নিমন্ত্ৰণী শৰাই।",
     "ogTitle": "Bedanta & Namrata's Marriage invitation",
     "ogDescription": "এটি নতুন অধ্যায়ৰ আৰম্ভণি",
-    "thumbnail": "assets/images/couple/Thumbnail.webp",
+    "thumbnail": "assets/images/couple/Thumbnail.jpg",
     "defaultLanguage": "as",
     "bilingualEnabled": true,
     "themeMode": "muga-royal"
