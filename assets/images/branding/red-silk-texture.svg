@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <!-- Microscopic Paat Silk Twill Weave -->
+    <pattern id="silkWeave" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#8b0d1a"/>
+      <rect x="0" y="0" width="2" height="2" fill="#991120"/>
+      <rect x="2" y="2" width="2" height="2" fill="#991120"/>
+      <line x1="0" y1="4" x2="4" y2="0" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+      <line x1="0" y1="0" x2="4" y2="4" stroke="rgba(0,0,0,0.12)" stroke-width="0.4"/>
+    </pattern>
+
+    <!-- Metallic Silver Zari Gradient with Platinum & Light Gold Reflection -->
+    <linearGradient id="silverZari" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#f1f5f9"/>
+      <stop offset="45%" stop-color="#cbd5e1"/>
+      <stop offset="70%" stop-color="#e2e8f0"/>
+      <stop offset="88%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+
+    <!-- Gleaming Silver Thread Highlight -->
+    <linearGradient id="silverHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#f8fafc" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#cbd5e1" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Delicate Gold Accent Thread -->
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+
+    <!-- Woven Thread Drop Shadow (creates realistic embroidered depth) -->
+    <filter id="zariRelief" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="0.8" flood-color="#3b0207" flood-opacity="0.85"/>
+      <feDropShadow dx="0" dy="0.4" stdDeviation="0.4" flood-color="#ffffff" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Master Silver Zari Buti (বিয়াৰ পাটৰ ৰূপালী বোটা) -->
+    <g id="sareeButi" filter="url(#zariRelief)">
+      <!-- Left Floral Wing / Petal -->
+      <path d="M 0,-1 C -2.2,-1.6 -5.6,-0.6 -8.2,-3 C -10.6,-5.2 -11.6,-8.2 -10.8,-10.6 C -10.2,-8.6 -8.5,-6.6 -5.6,-5.2 C -3.2,-4 -1.4,-2.4 0,-1 Z" 
+            fill="url(#silverZari)"/>
+      <path d="M -0.6,-1.2 C -2.6,-2 -5.2,-3.2 -7.2,-5 C -8.8,-6.4 -9.6,-8.2 -9.4,-9.6" 
+            stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.85"/>
+
+      <!-- Right Floral Wing / Petal -->
+      <path d="M 0,-1 C 2.2,-1.6 5.6,-0.6 8.2,-3 C 10.6,-5.2 11.6,-8.2 10.8,-10.6 C 10.2,-8.6 8.5,-6.6 5.6,-5.2 C 3.2,-4 1.4,-2.4 0,-1 Z" 
+            fill="url(#silverZari)"/>
+      <path d="M 0.6,-1.2 C 2.6,-2 5.2,-3.2 7.2,-5 C 8.8,-6.4 9.6,-8.2 9.4,-9.6" 
+            stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.85"/>
+
+      <!-- Central Upright Flame / Teardrop Petal -->
+      <path d="M 0,-14.2 C -3.4,-9.6 -4.2,-4.8 0,0 C 4.2,-4.8 3.4,-9.6 0,-14.2 Z" 
+            fill="url(#silverHighlight)"/>
+      <!-- Inner Vein Texture / Silver Ridge -->
+      <path d="M 0,-12.6 C -1.8,-8.5 -2,-4.2 0,-1 C 2,-4.2 1.8,-8.5 0,-12.6 Z" 
+            fill="url(#silverZari)"/>
+      <line x1="0" y1="-12.8" x2="0" y2="-1" stroke="#ffffff" stroke-width="0.6"/>
+
+      <!-- Top Zari Pinnacle / Gold Dot Tip -->
+      <circle cx="0" cy="-14.5" r="0.85" fill="url(#goldAccent)"/>
+
+      <!-- Base Calyx / Woven Bar -->
+      <path d="M -5.8,0.6 Q 0,2.8 5.8,0.6 Q 4.2,3.6 0,3.9 Q -4.2,3.6 -5.8,0.6 Z" 
+            fill="url(#silverZari)"/>
+      <path d="M -4.8,0.9 Q 0,2.3 4.8,0.9" 
+            stroke="#ffffff" stroke-width="0.45" fill="none"/>
+
+      <!-- Three Seed Pearl / Zari Drops at Base -->
+      <circle cx="-3.8" cy="4.6" r="1.05" fill="url(#silverZari)"/>
+      <circle cx="-3.8" cy="4.3" r="0.35" fill="#ffffff"/>
+      
+      <circle cx="0" cy="5.6" r="1.3" fill="url(#silverHighlight)"/>
+      <circle cx="0" cy="5.2" r="0.45" fill="#ffffff"/>
+      
+      <circle cx="3.8" cy="4.6" r="1.05" fill="url(#silverZari)"/>
+      <circle cx="3.8" cy="4.3" r="0.35" fill="#ffffff"/>
+    </g>
+
+    <!-- Miniature Intermediate Diamond Zari Florets / Stitch Accents -->
+    <g id="miniFloret">
+      <path d="M 0,-2.5 L 1.2,-0.4 L 2.6,0 L 1.2,0.4 L 0,2.5 L -1.2,0.4 L -2.6,0 L -1.2,-0.4 Z" 
+            fill="url(#silverHighlight)" opacity="0.75"/>
+      <circle cx="0" cy="0" r="0.6" fill="url(#goldAccent)"/>
+    </g>
+  </defs>
+
+  <!-- Base Silk Background with Micro-Weave Grain -->
+  <rect width="120" height="120" fill="url(#silkWeave)"/>
+
+  <!-- Subtle Silk Lustre Sheen Bands (Simulating Silk Drape Warp Reflection) -->
+  <path d="M -30 60 L 60 -30 L 78 -30 L -12 60 Z" fill="rgba(255,255,255,0.025)"/>
+  <path d="M 42 150 L 150 42 L 168 42 L 60 150 Z" fill="rgba(255,255,255,0.025)"/>
+
+  <!-- Center Buti (Offset Quincunx Distribution) -->
+  <use href="#sareeButi" x="60" y="60"/>
+
+  <!-- Four Corners Seamless Repeat (Forms seamless repeating diamond lattice) -->
+  <use href="#sareeButi" x="0" y="0"/>
+  <use href="#sareeButi" x="120" y="0"/>
+  <use href="#sareeButi" x="0" y="120"/>
+  <use href="#sareeButi" x="120" y="120"/>
+
+  <!-- Intermediate Delicate Florets (at the exact quincunx diagonal midpoints) -->
+  <use href="#miniFloret" x="30" y="30"/>
+  <use href="#miniFloret" x="90" y="30"/>
+  <use href="#miniFloret" x="30" y="90"/>
+  <use href="#miniFloret" x="90" y="90"/>
+</svg>

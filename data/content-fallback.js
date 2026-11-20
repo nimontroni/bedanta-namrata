@@ -1,0 +1,356 @@
+/**
+ * Fallback data bundle for file:// protocol and static hosting
+ */
+window.__WEDDING_CONTENT_FALLBACK__ = {
+  "general": {
+    "siteTitle": "বেদান্ত আৰু নম্ৰতাৰ শুভ বিবাহ | Bedanta & Namrata's Wedding",
+    "siteTitleEn": "Bedanta & Namrata's Wedding Invitation",
+    "metaDescription": "বেদান্ত শইকীয়া আৰু নম্ৰতা শইকীয়াৰ পৱিত্ৰ বিবাহৰ ডিজিটেল নিমন্ত্ৰণী শৰাই। আপোনাৰ আশীৰ্বাদ আৰু উপস্থিতি একান্তই কাম্য।",
+    "defaultLanguage": "as",
+    "bilingualEnabled": true,
+    "themeMode": "muga-royal"
+  },
+  "couple": {
+    "groom": {
+      "nameAs": "বেদান্ত শইকীয়া",
+      "nameEn": "Bedanta Saikia",
+      "titleAs": "দৰা",
+      "titleEn": "The Groom",
+      "parentsAs": "শ্ৰীমতী ৰেখা শইকীয়া আৰু শ্ৰীযুত হেমন্ত শইকীয়াৰ সুযোগ্য পুত্ৰ",
+      "parentsEn": "Son of Mrs. Rekha Saikia & Mr. Hemanta Saikia",
+      "aboutAs": "দায়িত্বশীল, শান্ত স্বভাৱৰ আৰু জীৱনৰ প্ৰতিটো ক্ষণক ইতিবাচক দৃষ্টিৰে চোৱা এজন ডেকা। সততা আৰু সহমৰ্মিতা তেওঁৰ ব্যক্তিত্বৰ অলংকাৰ।",
+      "aboutEn": "A thoughtful, responsible individual who embraces life with optimism, integrity, warmth, and gentle strength.",
+      "image": "assets/images/couple/Quiet Conversation on the Stone Ledge.png"
+    },
+    "bride": {
+      "nameAs": "নম্ৰতা শইকীয়া",
+      "nameEn": "Namrata Saikia",
+      "titleAs": "কইনা",
+      "titleEn": "The Bride",
+      "parentsAs": "শ্ৰীমতী অমিতা শইকীয়া আৰু শ্ৰীযুত প্ৰণৱ শইকীয়াৰ জীয়ৰী",
+      "parentsEn": "Daughter of Mrs. Amita Saikia & Mr. Pranab Saikia",
+      "aboutAs": "মৰম, স্নেহ আৰু সংস্কাৰেৰে পৰিপূৰ্ণ মনৰ এগৰাকী সৰল হৃদয়ৰ ছোৱালী। পৰিয়ালৰ প্ৰতি গভীৰ শ্ৰদ্ধা আৰু মৰমেৰে তেওঁ সকলোৰে আপোন।",
+      "aboutEn": "A gentle soul filled with warmth, grace, and devotion to family values, bringing smiles and light wherever she goes.",
+      "image": "assets/images/couple/Faceless Indian Couple in Traditional Attire.png"
+    },
+    "duoSubtitleAs": "দৰা: বেদান্ত • কইনা: নম্ৰতা",
+    "duoSubtitleEn": "Groom: Bedanta • Bride: Namrata",
+    "couplePortrait": "assets/images/couple/Faceless South Asian Wedding Couple.png",
+    "heroCover": "assets/images/couple/duo_cover_image.jpg"
+  },
+  "envelope": {
+    "enabled": true,
+    "waxSealText": "B & N",
+    "cardHeaderAs": "শুভ পৰিণয়",
+    "cardHeaderEn": "Auspicious Wedding Invitation",
+    "cardTaglineAs": "",
+    "cardTaglineEn": "",
+    "buttonTextAs": "নিমন্ত্ৰণ-পত্ৰ খোলক",
+    "buttonTextEn": "Open Invitation",
+    "envelopeGamusaImage": "assets/images/branding/gamusa_fold.png",
+    "cardImage": "assets/images/couple/launch-image.png",
+    "autoPlayAudioOnOpen": true
+  },
+  "hero": {
+    "auspiciousTagAs": "॥ শ্ৰী শ্ৰী প্ৰজাপতয়ে নমঃ ॥",
+    "auspiciousTagEn": "|| Shree Shree Prajapataye Namah ||",
+    "invitationXoraiAs": "নিমন্ত্ৰণী শৰাই",
+    "invitationXoraiEn": "Nimontroni Xorai",
+    "titleAs": "বেদান্ত আৰু নম্ৰতা",
+    "titleEn": "Bedanta & Namrata",
+    "datePillAs": "পৱিত্ৰ বিবাহৰ দিনপঞ্জী",
+    "datePillEn": "Sacred Wedding Celebration",
+    "announcementLeadAs": "আঘোণৰ সোনালী পথাৰৰ দৰে বুকুৰ একোণত থকা সপোনটোৱেও আজি থনধৰি উঠিছে।",
+    "announcementLeadEn": "Like the golden harvest fields of Aghon, a cherished dream nurtured in our hearts blossoms today into sacred union.",
+    "announcementHighlightAs": "আমাক আশীৰ্বাদ আৰু মৰম যাচি এই পৱিত্ৰ মিলনৰ সাক্ষী হ’বলৈ আপোনালোক সকলোকে আন্তৰিকতাৰে নিমন্ত্ৰণ জনালোঁ।",
+    "announcementHighlightEn": "We wholeheartedly invite you to bless us and witness this auspicious beginning of our life together."
+  },
+  "story": {
+    "sectionTitleAs": "স্মৃতিৰ এমুঠি",
+    "sectionTitleEn": "Our Story",
+    "sectionSubtitleAs": "হিয়াৰ দাপোণত দুটি মনৰ এটি সুবাসিত যাত্ৰা",
+    "sectionSubtitleEn": "A beautiful journey of two souls from the first hello to forever",
+    "introAs": "জীৱনৰ অচিন বাটত খোজ দিওঁতেই কেনেকৈ দুটি হৃদয় এক হৈ পৰিল, তাৰেই এটি চমু আভাস...",
+    "introEn": "From a serendipitous digital connection to a sacred bond of seven lifetimes, here is a glimpse of our journey...",
+    "milestones": [
+      {
+        "id": "milestone-1",
+        "order": 1,
+        "enabled": true,
+        "number": "01",
+        "titleAs": "ফেচবুকত প্ৰথম চিনাকী",
+        "titleEn": "Facebook Brought Us Together",
+        "image": "assets/images/story/first_connection.png",
+        "isFacebook": true
+      },
+      {
+        "id": "milestone-2",
+        "order": 2,
+        "enabled": true,
+        "number": "02",
+        "titleAs": "হৃদয়ৰ পৰা হৃদয়লৈ",
+        "titleEn": "From Heart to Heart",
+        "image": "assets/images/story/getting_to_know.png",
+        "isFacebook": false
+      },
+      {
+        "id": "milestone-3",
+        "order": 3,
+        "enabled": true,
+        "number": "03",
+        "titleAs": "প্ৰথম লগপোৱা",
+        "titleEn": "From Screen to Reality",
+        "image": "assets/images/story/first_meet.png",
+        "isFacebook": false
+      },
+      {
+        "id": "milestone-4",
+        "order": 4,
+        "enabled": true,
+        "number": "04",
+        "titleAs": "হিয়াৰ গভীৰতাত ভালপোৱাৰ অঙ্কুৰণ",
+        "titleEn": "And Then, We Fell in Love",
+        "image": "assets/images/story/love_begin.png",
+        "isFacebook": false
+      },
+      {
+        "id": "milestone-5",
+        "order": 5,
+        "enabled": true,
+        "number": "05",
+        "titleAs": "একেলগে ডাঙৰ হ'লো",
+        "titleEn": "Growing Together",
+        "image": "assets/images/story/proposal.png",
+        "isFacebook": false
+      },
+      {
+        "id": "milestone-6",
+        "order": 6,
+        "enabled": true,
+        "number": "06",
+        "titleAs": "প্ৰতিশ্ৰুতি চিৰদিনৰ",
+        "titleEn": "From Us to Forever",
+        "image": "assets/images/story/infinite.png",
+        "isFacebook": false
+      }
+    ]
+  },
+  "countdown": {
+    "enabled": true,
+    "targetDate": "2027-02-24T00:00:00+05:30",
+    "titleAs": "শুভ বিবাহলৈ বাকী সময়",
+    "titleEn": "Countdown to The Wedding",
+    "subtitleAs": "পল-অনুপল গণি অপেক্ষা সেই পৱিত্ৰ লগনলৈ",
+    "subtitleEn": "Counting down every sacred second until our new beginning",
+    "labels": {
+      "daysAs": "দিন",
+      "daysEn": "Days",
+      "hoursAs": "ঘণ্টা",
+      "hoursEn": "Hours",
+      "minutesAs": "মিনিট",
+      "minutesEn": "Mins",
+      "secondsAs": "ছেকেণ্ড",
+      "secondsEn": "Secs"
+    }
+  },
+  "formalCard": {
+    "verseAs": "অগ্নী-সাক্ষী কৰি সাটো জনমৰ দোলেৰে বান্ধ খাই সমাজৰ আগত মোৰ সেই বিশেষ গৰাকীক অৰ্ধাঙ্গিনি ৰূপে পৰিচয় কৰাই দিবলৈ আগবাঢ়িছো অহা <span class=\"card-date-highlight\">১১ ফাগুণ (24th February, 2027) বুধবাৰে।</span>",
+    "verseEn": "Taking the sacred fire as our eternal witness and bound in bonds of seven lifetimes, promising to be together forever with that special one, we step forward to become one on <span class=\"card-date-highlight\">11 Phagun (24th February, 2027) Wednesday.</span>"
+  },
+  "ceremonies": {
+    "sectionTitleAs": "মাঙ্গলিক অনুষ্ঠানসমূহ",
+    "sectionTitleEn": "Wedding Ceremonies",
+    "sectionSubtitleAs": "পৰম্পৰাগত অসমীয়া বিবাহৰ মাঙ্গলিক ৰীতি-নীতি",
+    "sectionSubtitleEn": "Traditional Assamese rituals and auspicious celebrations",
+    "events": [
+      {
+        "id": "event-wedding",
+        "order": 1,
+        "enabled": true,
+        "badgeAs": "জোৰোণ আৰু বিবাহ",
+        "badgeEn": "Jurun & Wedding",
+        "titleAs": "জোৰোণ আৰু শুভ বিবাহ (Jurun & Wedding)",
+        "titleEn": "Jurun & Sacred Wedding",
+        "dateAs": "১১ ফাগুণ (24th February, 2027)",
+        "dateEn": "11 Phagun (24th February, 2027)",
+        "timeAs": "দুপৰীয়া ১১:০০ বজাৰ পৰা",
+        "timeEn": "From 11:00 AM onwards",
+        "venueAs": "আমাৰ আপোন ঘৰখন",
+        "venueEn": "Our Sweet Home",
+        "descriptionAs": "",
+        "descriptionEn": "",
+        "mapLink": "https://maps.google.com",
+        "calLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Jurun+%26+Wedding+(জোৰোণ+আৰু+শুভ+বিবাহ)+-+Bedanta+%26+Namrata&dates=20270224T100000/20270224T235900&details=Jurun+and+Auspicious+Assamese+Wedding+Ceremony+of+Bedanta+%26+Namrata"
+      },
+      {
+        "id": "event-reception",
+        "order": 3,
+        "enabled": true,
+        "badgeAs": "নিমন্ত্ৰণ দিৱস",
+        "badgeEn": "Reception Celebration",
+        "titleAs": "অভ্যৰ্থনা (Reception)",
+        "titleEn": "Reception Celebration",
+        "dateAs": "১৩ ফাগুণ (26th February, 2027)",
+        "dateEn": "13 Phagun (26th February, 2027)",
+        "timeAs": "সন্ধিয়া ০৬:০০ বজাৰ পৰা",
+        "timeEn": "From 06:00 PM onwards",
+        "venueAs": "আমাৰ আপোন ঘৰখন",
+        "venueEn": "Our Sweet Home",
+        "descriptionAs": "",
+        "descriptionEn": "",
+        "image": "assets/images/venue/reception_mondop.png",
+        "mapLink": "https://maps.google.com",
+        "calLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Reception+(অভ্যৰ্থনা)+-+Bedanta+%26+Namrata&dates=20270226T180000/20270226T233000&details=Grand+Reception+Banquet+of+Bedanta+%26+Namrata"
+      }
+    ]
+  },
+  "scratchCard": {
+    "enabled": true,
+    "titleAs": "মুগা পাটত ঘঁহি চাওক",
+    "titleEn": "Scratch to Reveal The Date",
+    "descAs": "সোণালী মুগা পাটৰ ওপৰত আঙুলি বা মাউচ চলাই আমাৰ পৱিত্ৰ বিবাহৰ দিনটো উন্মোচন কৰক।",
+    "descEn": "Gently rub the golden silk surface to reveal our wedding date.",
+    "scratchCoverTextAs": "SCRATCH TO REVEAL",
+    "scratchCoverTextEn": "SCRATCH TO REVEAL",
+    "revealedDateAs": "24th February, 2027",
+    "revealedDateEn": "24th February, 2027",
+    "revealedDateSubAs": "Wedding Ceremony of Bedanta & Namrata",
+    "revealedDateSubEn": "Wedding Ceremony of Bedanta & Namrata",
+    "revealedBadgeAs": "✨ Revealed! ✨",
+    "revealedBadgeEn": "✨ Revealed! ✨",
+    "resetBtnAs": "পুনৰ ঘঁহক",
+    "resetBtnEn": "Reset Card"
+  },
+  "blessingInvitation": {
+    "leadAs": "আমাৰ জীৱনৰ এই গুৰুত্বপূৰ্ণঁ দিনটোত আপুনি সপৰিয়ালে উপস্থিত হৈ আমাক দিহাই বুদ্ধিয়ে, বিয়ানাম এফাঁকি আৰু এজোলোকা উৰুলিৰে আশীৰ্বাদ দিবহি বুলি ৰভাৰ তলত বৰ আশাৰে বাট চাই থাকিম।",
+    "leadEn": "On this momentous day of our lives, we eagerly await under the wedding canopy with great hope for you and your family to grace the occasion, guide us with your wisdom, and bless us with traditional wedding songs and joyful ululations.",
+    "reminderAs": "🗓️ কেলেণ্ডাৰত তাৰিখটো দাগ এটা দি থ’বচোন।",
+    "reminderEn": "🗓️ Please mark the date on your calendar!"
+  },
+  "music": {
+    "enabled": true,
+    "src": "assets/audio/theme2_alokhua.mp3",
+    "secondarySrc": "assets/audio/Biyanaam.mp3",
+    "title": "অসমীয়া বিয়ানাম",
+    "titleEn": "Assamese Biyanaam Instrumental",
+    "defaultVolume": 0.5
+  },
+  "invitationMessage": {
+    "sectionTitleAs": "আন্তৰিক নিমন্ত্ৰণ-পত্ৰ",
+    "sectionTitleEn": "Warm Invitation",
+    "greetingAs": "নমস্কাৰ,",
+    "greetingEn": "Dear Family & Friends,",
+    "bodyAs": "অগ্নি-সাক্ষী কৰি, সত্ৰ-নামঘৰৰ পৱিত্ৰ আশীৰ্বাদ শিৰত লৈ, আমি বেদান্ত আৰু নম্ৰতাই এক নতুন পৱিত্ৰ জীৱনৰ পাতনি মেলিবলৈ ওলাইছোঁ। এই মাঙ্গলিক ক্ষণত আপোনাৰ আৰু আপোনাৰ পৰিয়ালবৰ্গৰ সশ্ৰদ্ধ উপস্থিতি আৰু আন্তৰিক আশীৰ্বাদ আমাৰ একান্ত কাম্য।",
+    "bodyEn": "With the sacred fire as witness and the heartfelt blessings of our elders, we, Bedanta and Namrata, are embarking on our sacred journey of togetherness. Your gracious presence and heartfelt blessings will make this celebration truly auspicious and unforgettable for us and our families.",
+    "signatureAs": "ইতি,\nবেদান্ত (দৰা) আৰু নম্ৰতা (কইনা)\nআৰু শইকীয়া পৰিয়ালবৰ্গ",
+    "signatureEn": "Cordially,\nBedanta (Groom) & Namrata (Bride)\nand Saikia Families"
+  },
+  "gallery": {
+    "sectionTitleAs": "মধুৰ ক্ষণৰ আলোকচিত্ৰ",
+    "sectionTitleEn": "Photo Gallery",
+    "sectionSubtitleAs": "হৃদয়ত সংৰক্ষিত কিছু অপূৰ্ব মুহূৰ্ত",
+    "sectionSubtitleEn": "Moments of joy, tenderness, and sweet memories",
+    "items": [
+      {
+        "id": "gal-1",
+        "url": "assets/images/gallery/Faceless South Asian Wedding Couple.png",
+        "captionAs": "পৱিত্ৰ মিলনৰ প্ৰতিচ্ছবি",
+        "captionEn": "Reflection of Sacred Union",
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "gal-2",
+        "url": "assets/images/gallery/Faceless Indian Couple in Traditional Attire.png",
+        "captionAs": "পৰম্পৰাগত অসমীয়া সাজত",
+        "captionEn": "In Traditional Assamese Elegance",
+        "order": 2,
+        "enabled": true
+      },
+      {
+        "id": "gal-3",
+        "url": "assets/images/gallery/Faceless Couple in a Romantic Embrace.png",
+        "captionAs": "হিয়াৰ নিবিড় সান্নিধ্যত",
+        "captionEn": "Gentle Embrace of Love",
+        "order": 3,
+        "enabled": true
+      },
+      {
+        "id": "gal-4",
+        "url": "assets/images/gallery/Quiet Conversation on the Stone Ledge.png",
+        "captionAs": "মধুৰ কথা-বতৰাৰ এক ক্ষণ",
+        "captionEn": "A Quiet, Peaceful Conversation",
+        "order": 4,
+        "enabled": true
+      },
+      {
+        "id": "gal-5",
+        "url": "assets/images/gallery/duo_cover_image.jpg",
+        "captionAs": "সুখী জীৱনৰ সোণালী সপোন",
+        "captionEn": "Golden Dreams of Togetherness",
+        "order": 5,
+        "enabled": true
+      },
+      {
+        "id": "gal-6",
+        "url": "assets/images/gallery/duo_cover_image_rect.png",
+        "captionAs": "চিৰন্তন হাঁহিৰ স্পৰ্শ",
+        "captionEn": "Cherished Joy and Laughter",
+        "order": 6,
+        "enabled": true
+      }
+    ]
+  },
+  "venue": {
+    "sectionTitleAs": "বিবাহ স্থলী আৰু ঠিকনা",
+    "sectionTitleEn": "Venue & Location",
+    "sectionSubtitleAs": "আমাক আশীৰ্বাদ কৰিবলৈ এই ঠিকনাত উপস্থিত হওক",
+    "sectionSubtitleEn": "We eagerly look forward to welcoming you at our venue",
+    "nameAs": "মাঙ্গলিক বিবাহ ভৱন",
+    "nameEn": "Mangalik Wedding Hall & Banquet",
+    "addressAs": "গ'ৰখীয়াদ'ল ন-আলি, যোৰহাট",
+    "addressEn": "Gorkhiya Dol Na-Ali, Jorhat",
+    "googleMapsUrl": "https://maps.app.goo.gl/gTBvCufGvK73f6ZR7",
+    "qrCodeImage": "assets/images/venue/QR Location.jpg",
+    "contactPersonAs": "যোগাযোগ: ৯৮৭৬৫ ৪৩২১০ / ৯৮৭৬৫ ৪৩২১১",
+    "contactPersonEn": "Contact: +91 98765 43210 / +91 98765 43211",
+    "landmarksAs": "নিকটৱৰ্তী স্থান: হোটেল তাজ ভিভান্তাৰ সমীপত",
+    "landmarksEn": "Landmark: Near Vivanta Guwahati"
+  },
+  "wishes": {
+    "sectionTitleAs": "শুভেচ্ছা আৰু আশীৰ্বাদ",
+    "sectionTitleEn": "Guest Wishes & Blessings",
+    "sectionSubtitleAs": "নৱদম্পতীৰ বাবে আপোনাৰ মৰম আৰু আশীৰ্বাদ পঠিয়াওক",
+    "sectionSubtitleEn": "Shower your warm love, heartfelt prayers, and blessings upon the couple",
+    "namePlaceholderAs": "আপোনাৰ শুভবোধক নাম...",
+    "namePlaceholderEn": "Your Name...",
+    "messagePlaceholderAs": "নৱদম্পতীৰ বাবে দুআষাৰ আশীৰ্বাদ লিখক...",
+    "messagePlaceholderEn": "Write your warm wishes for Bedanta & Namrata...",
+    "submitBtnAs": "শুভেচ্ছা বাৰ্তা প্ৰেৰণ কৰক",
+    "submitBtnEn": "Send Blessing",
+    "whatsappShareTextAs": "হোৱাটছএপত নিমন্ত্ৰণ পত্ৰ শ্বেয়াৰ কৰক",
+    "whatsappShareTextEn": "Share Invitation on WhatsApp",
+    "calendarBtnAs": "কেলেণ্ডাৰত যোগ কৰক",
+    "calendarBtnEn": "Add to Calendar",
+    "initialWishes": [
+      {
+        "name": "শইকীয়া পৰিয়ালবৰ্গ",
+        "date": "আঘোণ, ২০২৭",
+        "message": "বেদান্ত আৰু নম্ৰতালৈ শুভ বিবাহৰ আন্তৰিক ওলগ আৰু মনভৰা আশীৰ্বাদ জনালোঁ। তোমালোকৰ জীৱন সদায় সুখ, শান্তি আৰু সমৃদ্ধিৰে উপচি পৰক।"
+      },
+      {
+        "name": "হিৰণ্য আৰু ৰশ্মি ডেকা",
+        "date": "আঘোণ, ২০২৭",
+        "message": "নৱদম্পতীৰ পৱিত্ৰ দাম্পত্য জীৱন মধুৰ আৰু আনন্দময় হওক। তোমালোক দুয়ো সদায় এনেদৰেই হাঁহি-মুখে সুখেৰে থাকা।"
+      }
+    ]
+  },
+  "footer": {
+    "blessingAs": "",
+    "blessingEn": "",
+    "subtextAs": "",
+    "subtextEn": "",
+    "copyrightAs": "",
+    "copyrightEn": ""
+  }
+};

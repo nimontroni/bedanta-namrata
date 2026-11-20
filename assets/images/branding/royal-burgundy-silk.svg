@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <!-- Microscopic Assam Paat Silk Twill Weave -->
+    <pattern id="burgundySilkWeave" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#580B19"/>
+      <!-- Diagonal warp and weft silk thread ribs -->
+      <path d="M 0 0 L 3 3 M 3 0 L 6 3 M 0 3 L 3 6 M 3 3 L 6 6" stroke="#681021" stroke-width="0.8" fill="none"/>
+      <path d="M 3 0 L 0 3 M 6 0 L 3 3 M 3 3 L 0 6 M 6 3 L 3 6" stroke="#480814" stroke-width="0.6" fill="none"/>
+      <!-- Delicate silk sheen highlight -->
+      <rect x="1" y="1" width="1" height="1" fill="rgba(255,255,255,0.025)"/>
+      <rect x="4" y="4" width="1" height="1" fill="rgba(255,255,255,0.025)"/>
+    </pattern>
+
+    <!-- Antique Gold Zari Thread Gradient -->
+    <linearGradient id="antiqueGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E4C98A" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#C6A04A" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#9E7B2F" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#C6A04A" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Muted Champagne Gold Highlight -->
+    <linearGradient id="champagneGold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C6A04A" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#E4C98A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F3E5BE" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Tone-on-Tone Rich Wine Red Brocade Thread -->
+    <linearGradient id="wineBrocade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A02336" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#8C1D2D" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#580B19" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Soft Emboss Relief for Zari Thread on Silk -->
+    <filter id="zariEmboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.8" flood-color="#2D040C" flood-opacity="0.7"/>
+    </filter>
+
+    <!-- Master Assamese Kingkhap Medallion (কিংখাপ বুটা) -->
+    <g id="kingkhapMotif" filter="url(#zariEmboss)">
+      <!-- Outer Stepped Diamond Frame (Assamese Royal Lozenge) -->
+      <polygon points="0,-27 27,0 0,27 -27,0" fill="none" stroke="url(#antiqueGold)" stroke-width="1.2" opacity="0.35"/>
+      <polygon points="0,-24 24,0 0,24 -24,0" fill="none" stroke="url(#antiqueGold)" stroke-width="0.6" stroke-dasharray="2,2" opacity="0.25"/>
+
+      <!-- 4 Cardinal Ornamental Finials (Royal Points) -->
+      <path d="M 0,-27 L 3,-32 L 0,-35 L -3,-32 Z" fill="url(#champagneGold)" opacity="0.45"/>
+      <path d="M 0,27 L 3,32 L 0,35 L -3,32 Z" fill="url(#champagneGold)" opacity="0.45"/>
+      <path d="M 27,0 L 32,3 L 35,0 L 32,-3 Z" fill="url(#champagneGold)" opacity="0.45"/>
+      <path d="M -27,0 L -32,3 L -35,0 L -32,-3 Z" fill="url(#champagneGold)" opacity="0.45"/>
+
+      <!-- Corner Accent Pearls -->
+      <circle cx="0" cy="-36.5" r="0.9" fill="url(#champagneGold)" opacity="0.5"/>
+      <circle cx="0" cy="36.5" r="0.9" fill="url(#champagneGold)" opacity="0.5"/>
+      <circle cx="36.5" cy="0" r="0.9" fill="url(#champagneGold)" opacity="0.5"/>
+      <circle cx="-36.5" cy="0" r="0.9" fill="url(#champagneGold)" opacity="0.5"/>
+
+      <!-- Inner Diamond Field Tone-on-Tone Wash -->
+      <polygon points="0,-21 21,0 0,21 -21,0" fill="url(#wineBrocade)" opacity="0.35"/>
+      <polygon points="0,-20 20,0 0,20 -20,0" fill="none" stroke="url(#antiqueGold)" stroke-width="0.8" opacity="0.3"/>
+
+      <!-- Delicate Perimeter Seed Pearls -->
+      <circle cx="10" cy="-10" r="0.75" fill="url(#champagneGold)" opacity="0.4"/>
+      <circle cx="-10" cy="-10" r="0.75" fill="url(#champagneGold)" opacity="0.4"/>
+      <circle cx="10" cy="10" r="0.75" fill="url(#champagneGold)" opacity="0.4"/>
+      <circle cx="-10" cy="10" r="0.75" fill="url(#champagneGold)" opacity="0.4"/>
+
+      <!-- Assamese Stylized 8-Petal Royal Lotus (পদ্ম ফুল) -->
+      <!-- Cardinal Petals -->
+      <path d="M 0,0 C -2.5,-5 -3.5,-11 0,-15 C 3.5,-11 2.5,-5 0,0 Z" fill="url(#antiqueGold)" opacity="0.32"/>
+      <path d="M 0,0 C -2.5,5 -3.5,11 0,15 C 3.5,11 2.5,5 0,0 Z" fill="url(#antiqueGold)" opacity="0.32"/>
+      <path d="M 0,0 C -5,-2.5 -11,-3.5 -15,0 C -11,3.5 -5,2.5 0,0 Z" fill="url(#antiqueGold)" opacity="0.32"/>
+      <path d="M 0,0 C 5,-2.5 11,-3.5 15,0 C 11,3.5 5,2.5 0,0 Z" fill="url(#antiqueGold)" opacity="0.32"/>
+
+      <!-- Diagonal Petals -->
+      <path d="M 0,0 C -4.5,-2 -8.5,-6 -8.5,-8.5 C -6,-8.5 -2,-4.5 0,0 Z" fill="url(#champagneGold)" opacity="0.25"/>
+      <path d="M 0,0 C 4.5,-2 8.5,-6 8.5,-8.5 C 6,-8.5 2,-4.5 0,0 Z" fill="url(#champagneGold)" opacity="0.25"/>
+      <path d="M 0,0 C -4.5,2 -8.5,6 -8.5,8.5 C -6,8.5 -2,4.5 0,0 Z" fill="url(#champagneGold)" opacity="0.25"/>
+      <path d="M 0,0 C 4.5,2 8.5,6 8.5,8.5 C 6,8.5 2,4.5 0,0 Z" fill="url(#champagneGold)" opacity="0.25"/>
+
+      <!-- Inner Lotus Veins -->
+      <line x1="0" y1="-2" x2="0" y2="-13" stroke="url(#champagneGold)" stroke-width="0.5" opacity="0.4"/>
+      <line x1="0" y1="2" x2="0" y2="13" stroke="url(#champagneGold)" stroke-width="0.5" opacity="0.4"/>
+      <line x1="-2" y1="0" x2="-13" y2="0" stroke="url(#champagneGold)" stroke-width="0.5" opacity="0.4"/>
+      <line x1="2" y1="0" x2="13" y2="0" stroke="url(#champagneGold)" stroke-width="0.5" opacity="0.4"/>
+
+      <!-- Central Rosette Core (Gold Pearl Rings) -->
+      <circle cx="0" cy="0" r="4.2" fill="url(#wineBrocade)" opacity="0.6"/>
+      <circle cx="0" cy="0" r="3.2" fill="none" stroke="url(#antiqueGold)" stroke-width="0.75" opacity="0.45"/>
+      <circle cx="0" cy="0" r="1.6" fill="url(#champagneGold)" opacity="0.6"/>
+    </g>
+
+    <!-- Corner Floret / Borfi Buta (বৰফি বুটা) -->
+    <g id="cornerFloret" filter="url(#zariEmboss)">
+      <!-- 4-Petal Zari Diamond Star -->
+      <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="url(#antiqueGold)" opacity="0.28"/>
+      <circle cx="0" cy="0" r="1.2" fill="url(#champagneGold)" opacity="0.5"/>
+      <circle cx="0" cy="-9" r="0.6" fill="url(#champagneGold)" opacity="0.35"/>
+      <circle cx="0" cy="9" r="0.6" fill="url(#champagneGold)" opacity="0.35"/>
+      <circle cx="-9" cy="0" r="0.6" fill="url(#champagneGold)" opacity="0.35"/>
+      <circle cx="9" cy="0" r="0.6" fill="url(#champagneGold)" opacity="0.35"/>
+    </g>
+
+    <!-- Diagonal Diaper Stitch (দাঁতিৰ জালি সূতা) -->
+    <g id="diagonalLattice">
+      <!-- 45-degree Connecting Gold Zari Diaper Lines -->
+      <line x1="0" y1="0" x2="200" y2="200" stroke="url(#antiqueGold)" stroke-width="0.65" stroke-dasharray="3,5" opacity="0.12"/>
+      <line x1="200" y1="0" x2="0" y2="200" stroke="url(#antiqueGold)" stroke-width="0.65" stroke-dasharray="3,5" opacity="0.12"/>
+    </g>
+  </defs>
+
+  <!-- 1. Pure Burgundy Silk Weave Base -->
+  <rect width="200" height="200" fill="url(#burgundySilkWeave)"/>
+
+  <!-- 2. Diagonal Silk Brocade Lattice Lines -->
+  <use href="#diagonalLattice"/>
+
+  <!-- 3. Central Kingkhap Royal Medallion (কিংখাপ) -->
+  <use href="#kingkhapMotif" x="100" y="100"/>
+
+  <!-- 4. Corner Florets at Quincunx Intersections -->
+  <use href="#cornerFloret" x="0" y="0"/>
+  <use href="#cornerFloret" x="200" y="0"/>
+  <use href="#cornerFloret" x="0" y="200"/>
+  <use href="#cornerFloret" x="200" y="200"/>
+</svg>
