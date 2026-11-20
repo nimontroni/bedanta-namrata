@@ -8,7 +8,7 @@
 
   const i18n = {
     as: {
-      siteTitle: 'বেদান্ত আৰু নম্ৰতাৰ শুভ বিবাহ | Bedanta & Namrata Wedding Invitation',
+      siteTitle: 'Bedanta & Namrata\'s Marriage invitation - এটি নতুন অধ্যায়ৰ আৰম্ভণি',
       auspiciousTag: '॥ শ্ৰী শ্ৰী প্ৰজাপতয়ে নমঃ ॥',
       heroSub: 'নিমন্ত্ৰণী শৰাই',
       heroTitle: 'বেদান্ত আৰু নম্ৰতা',
@@ -79,7 +79,7 @@
       envInstruction: ''
     },
     en: {
-      siteTitle: 'Bedanta & Namrata Wedding Invitation | শুভ বিবাহ',
+      siteTitle: 'Bedanta & Namrata\'s Marriage invitation - এটি নতুন অধ্যায়ৰ আৰম্ভণি',
       auspiciousTag: '|| Shree Shree Prajapataye Namah ||',
       heroSub: 'Wedding Invitation',
       heroTitle: 'Bedanta & Namrata',

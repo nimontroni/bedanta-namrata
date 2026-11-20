@@ -3,9 +3,12 @@
  */
 window.__WEDDING_CONTENT_FALLBACK__ = {
   "general": {
-    "siteTitle": "বেদান্ত আৰু নম্ৰতাৰ শুভ বিবাহ | Bedanta & Namrata's Wedding",
-    "siteTitleEn": "Bedanta & Namrata's Wedding Invitation",
-    "metaDescription": "বেদান্ত শইকীয়া আৰু নম্ৰতা শইকীয়াৰ পৱিত্ৰ বিবাহৰ ডিজিটেল নিমন্ত্ৰণী শৰাই। আপোনাৰ আশীৰ্বাদ আৰু উপস্থিতি একান্তই কাম্য।",
+    "siteTitle": "Bedanta & Namrata's Marriage invitation - এটি নতুন অধ্যায়ৰ আৰম্ভণি",
+    "siteTitleEn": "Bedanta & Namrata's Marriage invitation",
+    "metaDescription": "Bedanta & Namrata's Marriage invitation - এটি নতুন অধ্যায়ৰ আৰম্ভণি। আমাৰ পৱিত্ৰ বিবাহৰ ডিজিটেল নিমন্ত্ৰণী শৰাই।",
+    "ogTitle": "Bedanta & Namrata's Marriage invitation",
+    "ogDescription": "এটি নতুন অধ্যায়ৰ আৰম্ভণি",
+    "thumbnail": "assets/images/couple/Thumbnail.webp",
     "defaultLanguage": "as",
     "bilingualEnabled": true,
     "themeMode": "muga-royal"
@@ -35,7 +38,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
     },
     "duoSubtitleAs": "দৰা: বেদান্ত • কইনা: নম্ৰতা",
     "duoSubtitleEn": "Groom: Bedanta • Bride: Namrata",
-    "couplePortrait": "assets/images/couple/Faceless South Asian Wedding Couple.png",
+    "couplePortrait": "assets/images/couple/Faceless South Asian Wedding Couple.webp",
     "heroCover": "assets/images/couple/duo_cover_image.jpg"
   },
   "envelope": {
@@ -47,7 +50,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
     "cardTaglineEn": "",
     "buttonTextAs": "নিমন্ত্ৰণ-পত্ৰ খোলক",
     "buttonTextEn": "Open Invitation",
-    "envelopeGamusaImage": "assets/images/branding/gamusa_fold.png",
+    "envelopeGamusaImage": "assets/images/branding/gamusa_fold.webp",
     "cardImage": "assets/images/couple/launch-image.png",
     "autoPlayAudioOnOpen": true
   },
@@ -80,7 +83,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
         "number": "01",
         "titleAs": "ফেচবুকত প্ৰথম চিনাকী",
         "titleEn": "Facebook Brought Us Together",
-        "image": "assets/images/story/first_connection.png",
+        "image": "assets/images/story/first_connection.webp",
         "isFacebook": true
       },
       {
@@ -90,7 +93,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
         "number": "02",
         "titleAs": "হৃদয়ৰ পৰা হৃদয়লৈ",
         "titleEn": "From Heart to Heart",
-        "image": "assets/images/story/getting_to_know.png",
+        "image": "assets/images/story/getting_to_know.webp",
         "isFacebook": false
       },
       {
@@ -100,7 +103,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
         "number": "03",
         "titleAs": "প্ৰথম লগপোৱা",
         "titleEn": "From Screen to Reality",
-        "image": "assets/images/story/first_meet.png",
+        "image": "assets/images/story/first_meet.webp",
         "isFacebook": false
       },
       {
@@ -110,7 +113,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
         "number": "04",
         "titleAs": "হিয়াৰ গভীৰতাত ভালপোৱাৰ অঙ্কুৰণ",
         "titleEn": "And Then, We Fell in Love",
-        "image": "assets/images/story/love_begin.png",
+        "image": "assets/images/story/love_begin.webp",
         "isFacebook": false
       },
       {
@@ -120,7 +123,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
         "number": "05",
         "titleAs": "একেলগে ডাঙৰ হ'লো",
         "titleEn": "Growing Together",
-        "image": "assets/images/story/proposal.png",
+        "image": "assets/images/story/proposal.webp",
         "isFacebook": false
       },
       {
@@ -130,7 +133,7 @@ window.__WEDDING_CONTENT_FALLBACK__ = {
         "number": "06",
         "titleAs": "প্ৰতিশ্ৰুতি চিৰদিনৰ",
         "titleEn": "From Us to Forever",
-        "image": "assets/images/story/infinite.png",
+        "image": "assets/images/story/infinite.webp",
         "isFacebook": false
       }
     ]

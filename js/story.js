@@ -10,7 +10,7 @@
     {
       id: 'milestone-1',
       order: 1,
-      image: 'assets/images/story/first_connection.png',
+      image: 'assets/images/story/first_connection.webp',
       titleAs: 'ফেচবুকত প্ৰথম চিনাকী',
       titleEn: 'Facebook Brought Us Together',
       isFacebook: true
@@ -18,7 +18,7 @@
     {
       id: 'milestone-2',
       order: 2,
-      image: 'assets/images/story/getting_to_know.png',
+      image: 'assets/images/story/getting_to_know.webp',
       titleAs: 'হৃদয়ৰ পৰা হৃদয়লৈ',
       titleEn: 'From Heart to Heart',
       isFacebook: false
@@ -26,7 +26,7 @@
     {
       id: 'milestone-3',
       order: 3,
-      image: 'assets/images/story/first_meet.png',
+      image: 'assets/images/story/first_meet.webp',
       titleAs: 'প্ৰথম লগপোৱা',
       titleEn: 'From Screen to Reality',
       isFacebook: false
@@ -34,7 +34,7 @@
     {
       id: 'milestone-4',
       order: 4,
-      image: 'assets/images/story/love_begin.png',
+      image: 'assets/images/story/love_begin.webp',
       titleAs: 'হিয়াৰ গভীৰতাত ভালপোৱাৰ অঙ্কুৰণ',
       titleEn: 'And Then, We Fell in Love',
       isFacebook: false
@@ -42,7 +42,7 @@
     {
       id: 'milestone-5',
       order: 5,
-      image: 'assets/images/story/proposal.png',
+      image: 'assets/images/story/proposal.webp',
       titleAs: 'একেলগে ডাঙৰ হ\'লো',
       titleEn: 'Growing Together',
       isFacebook: false
@@ -50,7 +50,7 @@
     {
       id: 'milestone-6',
       order: 6,
-      image: 'assets/images/story/infinite.png',
+      image: 'assets/images/story/infinite.webp',
       titleAs: 'প্ৰতিশ্ৰুতি চিৰদিনৰ',
       titleEn: 'From Us to Forever',
       isFacebook: false
